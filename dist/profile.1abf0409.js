@@ -575,8 +575,8 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"coHEg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _storage = require("@firebase/storage");
-var _firestore = require("@firebase/firestore");
+var _storage = require("/node_modules/@firebase/storage");
+var _firestore = require("/node_modules/@firebase/firestore");
 var _app = require("firebase/app");
 var _dotenv = require("dotenv");
 var _dotenvDefault = parcelHelpers.interopDefault(_dotenv);
@@ -675,6 +675,6 @@ document.addEventListener("DOMContentLoaded", async ()=>{
     }
 });
 
-},{"firebase/app":"aM3Fo","dotenv":"lErsX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@firebase/storage":"jEcdO","@firebase/firestore":"fkIBe"}]},["9L2rn","coHEg"], "coHEg", "parcelRequire8d1c")
+},{"firebase/app":"aM3Fo","dotenv":"lErsX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","/node_modules/@firebase/storage":"jEcdO","/node_modules/@firebase/firestore":"fkIBe"}]},["9L2rn","coHEg"], "coHEg", "parcelRequire8d1c")
 
 //# sourceMappingURL=profile.1abf0409.js.map
