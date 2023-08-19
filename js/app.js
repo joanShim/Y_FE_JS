@@ -1,5 +1,5 @@
-import { getStorage, ref, getDownloadURL } from "firebase/storage";
-import { addDoc, deleteDoc, collection, getFirestore, getDocs, updateDoc, doc, query, where } from "firebase/firestore";
+import { getStorage, ref, getDownloadURL } from "/node_modules/@firebase/storage";
+import { addDoc, deleteDoc, collection, getFirestore, getDocs, updateDoc, doc, query, where } from "/node_modules/@firebase/firestore";
 import { initializeApp } from "firebase/app";
 import dotenv from "dotenv";
 
